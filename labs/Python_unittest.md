@@ -98,6 +98,17 @@ class MultiplyTest(unittest.TestCase):
         self.assertEqual(a * b, result)
 ```
 
+Теперь можно запусть тест для нашей функции. Нажмите кнопку **"Run with Coverage"** в правой верхней части экрана:
+
+<p align=center><a href="https://imgbb.com/"><img src="https://i.ibb.co/TgP2yz2/image.png" alt="image" border="0"></a></p>
+
+> Для этого нужен модуль *coverage.py*, если его нет в вашем проекте, IDE Pycharm предложит установить его
+
+Если все тесты пройдут успешно, вы увидите что-то вроде этого:
+<p align=center>
+<a href="https://ibb.co/fCNZK5Z"><img src="https://i.ibb.co/8jxGRpG/test1.png" alt="test1" border="0"></a> <a href="https://imgbb.com/"><img src="https://i.ibb.co/Vm5M6zw/test2.png" alt="test2" border="0"></a></p>
+
+
 ## Требования к тесту
 * Каждый тест должен использовать свой собственный набор входных данных.
 * Результат выполнения одного теста не должен зависеть от других тестов.
@@ -130,18 +141,7 @@ def test_invalid_type_left(self):
     error_msg = 'Недопустимый тип аргумента!'
     self.assertEqual(error_msg, err.exception.args[0])
 ```
-```python
-def test_invalid_type_right(self):
-    """
-    Негативный тест - недопустимый тип данных правого операнда. \n
-    Вызовет исключение TypeError.
-    """
 
-    with self.assertRaises(TypeError) as err:
-        main.validate_type(4, 'aaa')
-    error_msg = 'Недопустимый тип аргумента!'
-    self.assertEqual(error_msg, err.exception.args[0])
-```
 * Тип возвращаемого значения – должен быть int или float для ***(+), (-), (\*)*** (в зависимости от типов операндов) и float для деления.
 * Для операции деления правый операнд не может быть нулевым. Проверить, что функция деления выбросит ZeroDivisionError при попытке поделить на ноль.
 ```python
@@ -160,19 +160,6 @@ def test_division_by_zero(self):
 ```
 
 •	Позитивные тесты – функции должны выполнять именно те операции, которые описаны в задании. Сравнить результат, возвращаемый функцией и результат арифметической операции.
-```python
-def test_both_args_are_int(self):
-    """
-    Позитивный тест - операнды типа int. \n
-    Результат имеет тип int.
-    """
-
-    a = 4
-    b = 2
-    result = main.minus(a, b)
-    self.assertIsInstance(result, int)
-    self.assertEqual(a - b, result)
-```
 ```python
 def test_both_args_are_float(self):
     """
