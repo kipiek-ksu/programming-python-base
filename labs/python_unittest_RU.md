@@ -48,7 +48,7 @@ def test_positive(self):
 
 > Метод [```assertEqual(first, second, msg=None)```](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual) сравнивает значения аргументов ```first``` и ```second```. Если они не равны, тест упадёт с ошибкой. Необязательный параметр ```msg``` позволяет указать сообщение, которое будет выведено при падении теста.
 
-Теперь проверим, что функция ```multiply(a, b)``` действительно бросает исключение, если её аргументы имеют неправильный (не ```int``` или ```float```) тип данных.
+Теперь проверим, что функция ```multiply(a, b)``` действительно бросает исключение, если её аргументы имеют неправильный (не [```int```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) или [```float```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)) тип данных.
 ```python
 class MultiplyTest(unittest.TestCase):
 
