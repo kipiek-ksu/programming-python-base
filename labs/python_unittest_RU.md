@@ -13,13 +13,13 @@ def multiply(a, b):
     
     return a * b
 ```
-Эта функция вычисляет произведение аргументов ```a``` и ```b```. Если хотя бы один из аргументов имеет неправильный тип данных (не ```float``` или ```int```), то будет выброшено исключение ```TypeError```.  
+Эта функция вычисляет произведение аргументов ```a``` и ```b```. Если хотя бы один из аргументов имеет неправильный тип данных (не [```float```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) или [```int```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)), то будет выброшено исключение [```TypeError```](https://docs.python.org/3/library/exceptions.html#TypeError).  
 
 > Для тестов принято создавать отдельную папку в проекте с названием "tests". Тесты для одного класса/модуля должны располагаться в отдельном файле.  
 
-> Для тестирования каждой функции/метода определите класс, унаследовав его от ```unittest.TestCase```. Дайте имя этому классу в стиле ```MyFunctionTest```.  
+> Для тестирования каждой функции/метода определите класс, унаследовав его от [```unittest.TestCase```](https://docs.python.org/3/library/unittest.html#unittest.TestCase). Дайте имя этому классу в стиле ```MyFunctionTest```.  
 
-Давайте протестируем эту функцию. Сначала добавим в проект папку с названием *tests*. В этой папке нужно создать файл *multiply_test.py* - он будет содержать все тесты для нашей функции. Определим в нём класс ```MultiplyTest```, унаследовав его от ```unittest.TestCase```:
+Давайте протестируем эту функцию. Сначала добавим в проект папку с названием *tests*. В этой папке нужно создать файл *multiply_test.py* - он будет содержать все тесты для нашей функции. Определим в нём класс ```MultiplyTest```, унаследовав его от [```unittest.TestCase```](https://docs.python.org/3/library/unittest.html#unittest.TestCase):
 ```python
 import unittest
 from main import multiply
@@ -28,7 +28,7 @@ class MultiplyTest(unittest.TestCase):
 ...
 ```
 
-Этот класс будет содержать методы для тестирования нашей функции. Также в нем можно переопределить (override) методы ```setUp(self)``` - для выполнения инструкций перед каждым тестом, ```tearDown(self)``` - для выполнения инструкций после каждого теста.  
+Этот класс будет содержать методы для тестирования нашей функции. Также в нем можно переопределить (override) методы [```setUp(self)```](https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp) - для выполнения инструкций перед каждым тестом, [```tearDown(self)```](https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown) - для выполнения инструкций после каждого теста.  
 
 > Внутри класса определяются методы-тесты для каждого тестового случая. Названия таких методов должны начинаться с *test_*.  
 
@@ -44,11 +44,9 @@ def test_positive(self):
     self.assertEqual(a * b, result)
 ```
 
-Первыми в тесте определены переменные ```a``` и ```b``` - это входные данные. Переменная ```result``` содержит значение, возвращаемое функцией ```multiply(a, b)```. В методе ```self.assertEqual()``` сравнивается ожидаемое значение ```a * b``` с фактическим значением переменной ```result```.
+Первыми в тесте определены переменные ```a``` и ```b``` - это входные данные. Переменная ```result``` содержит значение, возвращаемое функцией ```multiply(a, b)```. В методе [```self.assertEqual()```](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual) сравнивается ожидаемое значение ```a * b``` с фактическим значением переменной ```result```.
 
-> ```assertEqual(first, second, msg=None)```  
-> Сравнивает значения аргументов ```first``` и ```second```. Если они не равны, тест упадёт с ошибкой.  
-> Необязательный параметр ```msg``` позволяет указать сообщение, которое будет выведено при падении теста.
+> Метод [```assertEqual(first, second, msg=None)```](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual) сравнивает значения аргументов ```first``` и ```second```. Если они не равны, тест упадёт с ошибкой. Необязательный параметр ```msg``` позволяет указать сообщение, которое будет выведено при падении теста.
 
 Теперь проверим, что функция ```multiply(a, b)``` действительно бросает исключение, если её аргументы имеют неправильный (не ```int``` или ```float```) тип данных.
 ```python
@@ -64,8 +62,10 @@ def test_invalid_type_left(self):
     self.assertEqual(error_msg, err.exception.args[0])
 
 ```
+Метод [```self.assertRaises()```](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertRaises) - возвращает [контекстный менеджер](https://digitology.tech/posts/kontekstnye-menedzhery-v-python/) ```err```. Он сохраняет перехваченный объект исключения в своем атрибуте ```err.exception```. Это может быть полезно, если вы собираетесь дополнительно проверить сгенерированное исключение. В нашем тесте проверяется тип исключения [```TypeError```](https://docs.python.org/3/library/exceptions.html#TypeError) и текст сообщения об ошибке.
 
 > Каждый тест следует снабдить комментарием, в котором описан тип теста (позитивный или негативный), входные данные, ожидаемое поведение (какие данные будут в результате / какую ошибку выбросит, если тест негативный).  
+
 Добавим комментарии к каждому тесту. Вот так теперь выглядит весь файл *multiply_test.py*:
 ```python
 import unittest
@@ -117,10 +117,14 @@ class MultiplyTest(unittest.TestCase):
 * Тесты должны покрывать все ветки условий в теле функции и исключения, которые она может выбросить.
 
 ## Полезная информация
-* Видео:  
-[пересказ этой инструкции](https://www.youtube.com/watch?v=YD7aYJh3k-w), [немного теории](https://www.youtube.com/watch?v=Rz4S0v7K7Ho)
+Видео:  
+* [пересказ этой инструкции](https://www.youtube.com/watch?v=YD7aYJh3k-w), 
+* [немного теории](https://www.youtube.com/watch?v=Rz4S0v7K7Ho)
+
+Статьи и документация:
 * [Краткое руководство и рекомендации](https://ru.hexlet.io/courses/advanced_python/lessons/python_testing_unittest/theory_unit) (может потребоваться VPN)
 * [Еще статья](https://tirinox.ru/unit-test-python/)
+* [unittest — Unit testing framework](https://docs.python.org/3/library/unittest.html) - документация Python unittest.
 
 ## Пример - программа "Калькулятор" [(исходный код)](https://github.com/Ceowyllian/Calculator)
 Написать программу «Калькулятор», которая может выполнять 4 операции над числами a и b: 
@@ -136,7 +140,7 @@ class MultiplyTest(unittest.TestCase):
 Операция ```/``` всегда должна возвращать вещественный результат. 
 
 Что нужно протестировать:
-* Тип данных операндов – должен быть ```int``` или ```float```. Функция должна бросать исключение, если тип неправильный.
+* Тип данных операндов – должен быть [```int```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) или [```float```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex). Функция должна бросать исключение, если тип неправильный.
 ```python
 def test_invalid_type_left(self):
     """
@@ -150,8 +154,8 @@ def test_invalid_type_left(self):
     self.assertEqual(error_msg, err.exception.args[0])
 ```
 
-* Тип возвращаемого результата – должен быть ```int``` или ```float``` для ```+```, ```-```, ```*``` (в зависимости от типов операндов) и ```float``` для деления.
-* Для операции деления правый операнд не может быть нулевым. Проверить, что функция деления выбросит ```ZeroDivisionError``` при попытке поделить на ноль.
+* Тип возвращаемого результата – должен быть [```int```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) или [```float```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) для ```+```, ```-```, ```*``` (в зависимости от типов операндов) и [```float```](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex) для деления.
+* Для операции деления правый операнд не может быть нулевым. Проверить, что функция деления выбросит [```ZeroDivisionError```](https://docs.python.org/3/library/exceptions.html#ZeroDivisionError) при попытке поделить на ноль.
 ```python
 def test_division_by_zero(self):
     """
