@@ -5,7 +5,7 @@
 
 - встановити [Python 3.10.2](https://www.python.org/downloads/release/python-3102/)
 - встановити `IDE` [PyCharm](https://www.jetbrains.com/pycharm/download/); знайдіть можливість отримати студентську ліцензію
-- встановити `git` (можливо вже входить в ОС якщо використовуються macOS або
+- встановити [`git`](https://git-scm.com/downloads) (можливо вже входить в ОС якщо використовуються macOS або
   популярні дистрибутиви Linux) та клієнт для нього 
   (зазвичай входить в IDE як плагін)
 - зареєструватися на [github.com](https://github.com) 
