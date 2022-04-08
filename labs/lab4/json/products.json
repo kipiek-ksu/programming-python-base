@@ -1,0 +1,981 @@
+[{
+    "name": "Безбелковый РОЖОК с пищевыми волокнами ",
+    "category": "Безбелковые макароны",
+    "cost": 107.0,
+    "amount": 47,
+    "weight": 400,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Безбелковая вермишель ",
+    "category": "Безбелковые макароны",
+    "cost": 79.0,
+    "amount": 90,
+    "weight": 350,
+    "storage": 46187,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безбелковая спираль ",
+    "category": "Безбелковые макароны",
+    "cost": 79.0,
+    "amount": 82,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безбелковая рифленая трубочка ",
+    "category": "Безбелковые макароны",
+    "cost": 79.0,
+    "amount": 41,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Безбелковая ракушка ",
+    "category": "Безбелковые макароны",
+    "cost": 79.0,
+    "amount": 0,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безбелковая вермишель ДОМАШНЯЯ ",
+    "category": "Безбелковые макароны",
+    "cost": 99.0,
+    "amount": 77,
+    "weight": 200,
+    "storage": 46186,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безбелковая спираль ДОМАШНЯЯ ",
+    "category": "Безбелковые макароны",
+    "cost": 75.0,
+    "amount": 49,
+    "weight": 200,
+    "storage": 46188,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Безбелковая лапша ДОМАШНЯЯ ",
+    "category": "Безбелковые макароны",
+    "cost": 115.0,
+    "amount": 60,
+    "weight": 130,
+    "storage": 46188,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Безбелковые СПАГЕТТИ ",
+    "category": "Безбелковые макароны",
+    "cost": 75.0,
+    "amount": 48,
+    "weight": 80,
+    "storage": 46184,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безбелковая ягодная ракушка ",
+    "category": "Безбелковые макароны",
+    "cost": 83.0,
+    "amount": 29,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безбелковая овощная ракушка ",
+    "category": "Безбелковые макароны",
+    "cost": 83.0,
+    "amount": 122,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Безбелковая фруктовая ракушка ",
+    "category": "Безбелковые макароны",
+    "cost": 83.0,
+    "amount": 73,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безглютеновый кукурузный рожок ",
+    "category": "Безглютеновые макароны",
+    "cost": 99.0,
+    "amount": 54,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Безглютеновая кукурузная рифленая трубочка ",
+    "category": "Безглютеновые макароны",
+    "cost": 99.0,
+    "amount": 54,
+    "weight": 300,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Безглютеновый кукурузный треугольный рожок ",
+    "category": "Безглютеновые макароны",
+    "cost": 99.0,
+    "amount": 13,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Безглютеновая гречневая спираль ",
+    "category": "Безглютеновые макароны",
+    "cost": 117.0,
+    "amount": 49,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Безглютеновый гречневый рожок ",
+    "category": "Безглютеновые макароны",
+    "cost": 117.0,
+    "amount": 37,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Безглютеновый рисовый рожок ",
+    "category": "Безглютеновые макароны",
+    "cost": 99.0,
+    "amount": 62,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Безглютеновый рисовый треугольный рожок ",
+    "category": "Безглютеновые макароны",
+    "cost": 99.0,
+    "amount": 34,
+    "weight": 300,
+    "storage": 46188,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Безглютеновая рисовая рифленая трубочка ",
+    "category": "Безглютеновые макароны",
+    "cost": 99.0,
+    "amount": 51,
+    "weight": 300,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "КРУПКА КУКУРУЗНАЯ безглютеновая низкобелковая ",
+    "category": "Каши | Крупы",
+    "cost": 189.0,
+    "amount": 39,
+    "weight": 350,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "КРУПКА ГРЕЧНЕВАЯ безглютеновая низкобелковая ",
+    "category": "Каши | Крупы",
+    "cost": 189.0,
+    "amount": 22,
+    "weight": 350,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Рис БЕЛЫЙ безбелковый ",
+    "category": "Каши | Крупы",
+    "cost": 173.0,
+    "amount": 2,
+    "weight": 350,
+    "storage": 46184,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Крупа КРУПКА с ПИЩЕВЫМИ ВОЛОКНАМИ низкобелковая ",
+    "category": "Каши | Крупы",
+    "cost": 247.0,
+    "amount": 19,
+    "weight": 500,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Крупа КРУПКА низкобелковая ",
+    "category": "Каши | Крупы",
+    "cost": 199.0,
+    "amount": 53,
+    "weight": 500,
+    "storage": 46185,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Рис БУРЫЙ с пищевыми волокнами безбелковый ",
+    "category": "Каши | Крупы",
+    "cost": 173.0,
+    "amount": 48,
+    "weight": 350,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Низкобелковая БЕЗБЕЛКОВАЯ КАША ",
+    "category": "Каши | Крупы",
+    "cost": 89.0,
+    "amount": 146,
+    "weight": 150,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Низкобелковая ГРЕЧНЕВАЯ КАША ",
+    "category": "Каши | Крупы",
+    "cost": 119.0,
+    "amount": 176,
+    "weight": 150,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Низкобелковая КУКУРУЗНАЯ КАША ",
+    "category": "Каши | Крупы",
+    "cost": 109.0,
+    "amount": 135,
+    "weight": 150,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Низкобелковая ФРУКТОВАЯ КАША ",
+    "category": "Каши | Крупы",
+    "cost": 119.0,
+    "amount": 85,
+    "weight": 150,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Йодформа с морской капустой ракушка ",
+    "category": "Макароны здорового питания",
+    "cost": 59.0,
+    "amount": 17,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Зерновая спираль ",
+    "category": "Макароны здорового питания",
+    "cost": 49.0,
+    "amount": 24,
+    "weight": 300,
+    "storage": 46188,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Йодформа с морской капустой колокольчик ",
+    "category": "Макароны здорового питания",
+    "cost": 59.0,
+    "amount": 14,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Зерновая рифленая трубочка ",
+    "category": "Макароны здорового питания",
+    "cost": 49.0,
+    "amount": 24,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Топинамбурный колокольчик ",
+    "category": "Макароны здорового питания",
+    "cost": 65.0,
+    "amount": 16,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Ржаная спираль ",
+    "category": "Макароны здорового питания",
+    "cost": 53.0,
+    "amount": 23,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Топинамбурная спираль ",
+    "category": "Макароны здорового питания",
+    "cost": 65.0,
+    "amount": 33,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Ржаная ракушка ",
+    "category": "Макароны здорового питания",
+    "cost": 53.0,
+    "amount": 25,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Топинамбурная ракушка ",
+    "category": "Макароны здорового питания",
+    "cost": 65.0,
+    "amount": 21,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Ржаная рифленая трубочка ",
+    "category": "Макароны здорового питания",
+    "cost": 53.0,
+    "amount": 30,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Овсяная спираль ",
+    "category": "Макароны здорового питания",
+    "cost": 93.0,
+    "amount": 32,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Овсяный колокольчик ",
+    "category": "Макароны здорового питания",
+    "cost": 93.0,
+    "amount": 10,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Сухой завтрак КОЛЕЧКИ безбелковый безглютеновый ",
+    "category": "Печенье | закуски",
+    "cost": 259.0,
+    "amount": 18,
+    "weight": 300,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Сухой завтрак ШОКОЛАДНЫЕ КОЛЕЧКИ безбелковый безглютеновый ",
+    "category": "Печенье | закуски",
+    "cost": 259.0,
+    "amount": 21,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "\"Печенье ВОЗДУШНОЕ \"\"Игрушки\"\" низкобелковое (маленький набор) \"",
+    "category": "Печенье | закуски",
+    "cost": 177.0,
+    "amount": 0,
+    "weight": 37,
+    "storage": 46188,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "\"Печенье ВОЗДУШНОЕ \"\"Игрушки\"\" низкобелковое (большой набор) \"",
+    "category": "Печенье | закуски",
+    "cost": 577.0,
+    "amount": 0,
+    "weight": 200,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "\"Печенье ВОЗДУШНОЕ \"\"Игрушки\"\" низкобелковое (средний набор) \"",
+    "category": "Печенье | закуски",
+    "cost": 337.0,
+    "amount": 2,
+    "weight": 100,
+    "storage": 46184,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Печенье САХАРНЫЕ ТАРТАЛЕТКИ безбелковые ",
+    "category": "Печенье | закуски",
+    "cost": 99.0,
+    "amount": 60,
+    "weight": 50,
+    "storage": 46187,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Печенье ВАНИЛЬНОЕ с белой глазурью ",
+    "category": "Печенье | закуски",
+    "cost": 155.0,
+    "amount": 102,
+    "weight": 100,
+    "storage": 46185,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Шоколадные плитки БЕЛЫЕ низкобелковые ",
+    "category": "Печенье | закуски",
+    "cost": 147.0,
+    "amount": 30,
+    "weight": 80,
+    "storage": 46187,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Шоколадные плитки ТЕМНЫЕ низкобелковые ",
+    "category": "Печенье | закуски",
+    "cost": 147.0,
+    "amount": 5,
+    "weight": 80,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Печенье свердловское (сладкие вафли с карамелью) ",
+    "category": "Печенье | закуски",
+    "cost": 97.0,
+    "amount": 98,
+    "weight": 90,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Печенье ПРЯНИЧНОЕ в темном шоколаде ",
+    "category": "Печенье | закуски",
+    "cost": 227.0,
+    "amount": 99,
+    "weight": 180,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Печенье ШОКОЛАДНОЕ в белом шоколаде ",
+    "category": "Печенье | закуски",
+    "cost": 155.0,
+    "amount": 42,
+    "weight": 100,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Шоколадные КУБИКИ с воздушным рисом низкобелковые ",
+    "category": "Печенье | закуски",
+    "cost": 189.0,
+    "amount": 70,
+    "weight": 75,
+    "storage": 46188,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Печенье ЗВЁЗДОЧКИ (крекеры с луком) ",
+    "category": "Печенье | закуски",
+    "cost": 47.0,
+    "amount": 251,
+    "weight": 50,
+    "storage": 46188,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Печенье САХАРНОЕ (сладкие вафли) ",
+    "category": "Печенье | закуски",
+    "cost": 107.0,
+    "amount": 88,
+    "weight": 200,
+    "storage": 46187,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Печенье ЦВЕТОЧНОЕ (с малиновым вареньем) ",
+    "category": "Печенье | закуски",
+    "cost": 109.0,
+    "amount": 70,
+    "weight": 150,
+    "storage": 46187,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Печенье СОЛЁНОЕ (соленые тарталетки) ",
+    "category": "Печенье | закуски",
+    "cost": 97.0,
+    "amount": 74,
+    "weight": 200,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Печенье ГАРМОНИЯ (с шоколадными каплями) ",
+    "category": "Печенье | закуски",
+    "cost": 135.0,
+    "amount": 40,
+    "weight": 200,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Палочки Гриссини СДОБНЫЕ ",
+    "category": "Печенье | закуски",
+    "cost": 133.0,
+    "amount": 89,
+    "weight": 100,
+    "storage": 46186,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Палочки Гриссини СВЕТЛЫЕ ",
+    "category": "Печенье | закуски",
+    "cost": 133.0,
+    "amount": 34,
+    "weight": 140,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Палочки Гриссини ТЕМНЫЕ ",
+    "category": "Печенье | закуски",
+    "cost": 133.0,
+    "amount": 88,
+    "weight": 140,
+    "storage": 46188,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Печенье-палочки ВОЗДУШНОЕ ",
+    "category": "Печенье | закуски",
+    "cost": 59.0,
+    "amount": 62,
+    "weight": 20,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Печенье-палочки ТОМАТНОЕ ",
+    "category": "Печенье | закуски",
+    "cost": 59.0,
+    "amount": 52,
+    "weight": 20,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Печенье-палочки ЯБЛОКО ",
+    "category": "Печенье | закуски",
+    "cost": 59.0,
+    "amount": 52,
+    "weight": 20,
+    "storage": 46185,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Сухарики Крутон темные АРОМАТНЫЕ ",
+    "category": "Печенье | закуски",
+    "cost": 143.0,
+    "amount": 71,
+    "weight": 140,
+    "storage": 46187,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Сухарики Крутон СВЕТЛЫЕ ",
+    "category": "Печенье | закуски",
+    "cost": 143.0,
+    "amount": 75,
+    "weight": 140,
+    "storage": 46186,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Сухарики Крутон со вкусом СМЕТАНА-ЛУК ",
+    "category": "Печенье | закуски",
+    "cost": 75.0,
+    "amount": 123,
+    "weight": 80,
+    "storage": 46188,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Сухарики Крутон со вкусом СЫР ",
+    "category": "Печенье | закуски",
+    "cost": 75.0,
+    "amount": 142,
+    "weight": 80,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Сухарики Крутон со вкусом ПИЦЦА ",
+    "category": "Печенье | закуски",
+    "cost": 75.0,
+    "amount": 124,
+    "weight": 80,
+    "storage": 46188,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Смесь для ДРАНИКОВ низкобелковая ",
+    "category": "Полуфабрикаты",
+    "cost": 173.0,
+    "amount": 37,
+    "weight": 210,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Десерт со вкусом ЛИМОНА низкобелковый ",
+    "category": "Полуфабрикаты",
+    "cost": 317.0,
+    "amount": 10,
+    "weight": 250,
+    "storage": 46186,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Молоко сухое быстрорастворимое низкобелковое ",
+    "category": "Полуфабрикаты",
+    "cost": 167.0,
+    "amount": 135,
+    "weight": 150,
+    "storage": 46187,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Смесь для КЛЕЦОК низкобелковая ",
+    "category": "Полуфабрикаты",
+    "cost": 173.0,
+    "amount": 59,
+    "weight": 210,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Десерт со вкусом МАЛИНЫ низкобелковый ",
+    "category": "Полуфабрикаты",
+    "cost": 327.0,
+    "amount": 22,
+    "weight": 250,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Пюре картофельное С ТЫКВОЙ низкобелковое ",
+    "category": "Полуфабрикаты",
+    "cost": 173.0,
+    "amount": 60,
+    "weight": 140,
+    "storage": 46188,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Десерт со вкусом ШОКОЛАДА низкобелковый ",
+    "category": "Полуфабрикаты",
+    "cost": 327.0,
+    "amount": 17,
+    "weight": 150,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Котлетная смесь ДОМАШНЯЯ низкобелковая ",
+    "category": "Полуфабрикаты",
+    "cost": 79.0,
+    "amount": 56,
+    "weight": 120,
+    "storage": 46188,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Десерт со вкусом ТВОРОГА низкобелковый ",
+    "category": "Полуфабрикаты",
+    "cost": 457.0,
+    "amount": 0,
+    "weight": 300,
+    "storage": 46188,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Сухари панировочные АРОМАТНЫЕ низкобелковые ",
+    "category": "Полуфабрикаты",
+    "cost": 97.0,
+    "amount": 42,
+    "weight": 200,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Котлетная смесь СВЕРДЛОВСКАЯ низкобелковая ",
+    "category": "Полуфабрикаты",
+    "cost": 79.0,
+    "amount": 62,
+    "weight": 120,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Котлетная смесь ПИКАНТНАЯ низкобелковая ",
+    "category": "Полуфабрикаты",
+    "cost": 79.0,
+    "amount": 76,
+    "weight": 120,
+    "storage": 46187,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Пюре картофельное сухое низкобелковое ",
+    "category": "Полуфабрикаты",
+    "cost": 59.0,
+    "amount": 152,
+    "weight": 40,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Сухари панировочные кукурузные низкобелковые ",
+    "category": "Полуфабрикаты",
+    "cost": 97.0,
+    "amount": 31,
+    "weight": 200,
+    "storage": 46187,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Спираль быстрого приготовления с кислосладким соусом ",
+    "category": "Полуфабрикаты",
+    "cost": 69.0,
+    "amount": 0,
+    "weight": 40,
+    "storage": 46188,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Спираль быстрого приготовления со сливочным соусом и шпинатом ",
+    "category": "Полуфабрикаты",
+    "cost": 69.0,
+    "amount": 0,
+    "weight": 40,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Заменитель яйца низкобелковый безглютеновый ",
+    "category": "Полуфабрикаты",
+    "cost": 197.0,
+    "amount": 28,
+    "weight": 100,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Йогурт сухой низкобелковый безглютеновый ",
+    "category": "Полуфабрикаты",
+    "cost": 159.0,
+    "amount": 40,
+    "weight": 100,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Йогурт с клубникой сухой низкобелковый безглютеновый ",
+    "category": "Полуфабрикаты",
+    "cost": 217.0,
+    "amount": 44,
+    "weight": 100,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Сыр низкобелковый (сухой концентрат) ",
+    "category": "Полуфабрикаты",
+    "cost": 69.0,
+    "amount": 73,
+    "weight": 37,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Смесь для выпечки СЕРАЯ с пищевыми волокнами безбелковая ",
+    "category": "Смеси для выпечки",
+    "cost": 277.0,
+    "amount": 17,
+    "weight": 400,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Смесь для выпечки БЕЗБЕЛКОВАЯ ",
+    "category": "Смеси для выпечки",
+    "cost": 237.0,
+    "amount": 250,
+    "weight": 700,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Смесь для выпечки безбелковая тёмная АРОМАТНАЯ ",
+    "category": "Смеси для выпечки",
+    "cost": 197.0,
+    "amount": 39,
+    "weight": 400,
+    "storage": 46188,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Смесь для выпечки КЕКС ЛИМОННЫЙ безбелковая ",
+    "category": "Смеси для выпечки",
+    "cost": 183.0,
+    "amount": 11,
+    "weight": 400,
+    "storage": 46188,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Смесь для выпечки КЕКС ВАНИЛЬНЫЙ безбелковая ",
+    "category": "Смеси для выпечки",
+    "cost": 183.0,
+    "amount": 0,
+    "weight": 400,
+    "storage": 46188,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Смесь для выпечки КЕКС ШОКОЛАДНЫЙ безбелковая ",
+    "category": "Смеси для выпечки",
+    "cost": 327.0,
+    "amount": 33,
+    "weight": 400,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Смесь КЕКС ВАНИЛЬНЫЙ (стакан) с пищевыми волокнами безбелковая ",
+    "category": "Смеси для выпечки",
+    "cost": 53.0,
+    "amount": 4,
+    "weight": 85,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Смесь КЕКС ШОКОЛАДНЫЙ (стакан) с пищевыми волокнами безбелковая ",
+    "category": "Смеси для выпечки",
+    "cost": 59.0,
+    "amount": 199,
+    "weight": 85,
+    "storage": 46184,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Смесь для выпечки ГРЕЧНЕВАЯ безглютеновая ",
+    "category": "Смеси для выпечки",
+    "cost": 197.0,
+    "amount": 18,
+    "weight": 700,
+    "storage": 46185,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Смесь для выпечки РИСОВАЯ безглютеновая ",
+    "category": "Смеси для выпечки",
+    "cost": 207.0,
+    "amount": 39,
+    "weight": 700,
+    "storage": 46186,
+    "manufacturer": "Nutrigen"
+},
+{
+    "name": "Смесь для выпечки КУКУРУЗНАЯ безглютеновая ",
+    "category": "Смеси для выпечки",
+    "cost": 207.0,
+    "amount": 86,
+    "weight": 700,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Хлеб белый безбелковый безглютеновый ",
+    "category": "Хлебобулочные изделия",
+    "cost": 159.0,
+    "amount": 2,
+    "weight": 300,
+    "storage": 46187,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Хлеб тёмный ароматный безбелковый безглютеновый ",
+    "category": "Хлебобулочные изделия",
+    "cost": 159.0,
+    "amount": 34,
+    "weight": 300,
+    "storage": 46186,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Хлеб станичный безбелковый безглютеновый ",
+    "category": "Хлебобулочные изделия",
+    "cost": 159.0,
+    "amount": 2,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Хлеб праздничный безбелковый безглютеновый ",
+    "category": "Хлебобулочные изделия",
+    "cost": 159.0,
+    "amount": 22,
+    "weight": 300,
+    "storage": 46185,
+    "manufacturer": "Yzaguirre"
+},
+{
+    "name": "Хлеб кукурузный низкобелковый безглютеновый ",
+    "category": "Хлебобулочные изделия",
+    "cost": 129.0,
+    "amount": 0,
+    "weight": 250,
+    "storage": 46188,
+    "manufacturer": "Kristall LTD"
+},
+{
+    "name": "Гренки безбелковые безглютеновые ",
+    "category": "Хлебобулочные изделия",
+    "cost": 39.0,
+    "amount": 0,
+    "weight": 30,
+    "storage": 46184,
+    "manufacturer": "MakMaster"
+},
+{
+    "name": "Булочки ассорти безбелковые безглютеновые ",
+    "category": "Хлебобулочные изделия",
+    "cost": 199.0,
+    "amount": 14,
+    "weight": 300,
+    "storage": 46184,
+    "manufacturer": "Kristall LTD"
+}]
